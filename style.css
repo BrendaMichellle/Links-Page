@@ -105,6 +105,11 @@ body {
   list-style: none;
 }
 
+.socialItem:hover {
+  position: relative;
+  top: .2em;
+}
+
 .social {
   color: var(--clr-dark);
   font-size: 3rem;
