@@ -73,11 +73,10 @@ body {
 .linkItem {
   list-style: none;
   background-color: var(--clr-dark);
-  padding-top: 1em;
-  padding-bottom: 1em;
   border-radius: 8px;
   text-align: center;
   margin: .5em auto;
+  cursor: pointer;
 }
 
 .link {
@@ -85,9 +84,16 @@ body {
   text-decoration: none;
   font-family: var(--ff-secondary);
   font-size: var(--fs-h2);
+  display: block;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 8px;
+  text-align: center;
+  margin: .5em auto;
+  cursor: pointer
 }
 
-.link:hover {
+.linkItem:hover {
   color: var(--clr-light);
   position: relative; 
   top: .2em;
